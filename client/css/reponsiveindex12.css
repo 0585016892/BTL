@@ -1,0 +1,108 @@
+@media (max-width: 991px) {
+  .content{
+    display: none;
+  }
+  }
+  
+  @media (max-width: 768px) {
+    .content{
+      display: none;
+    }
+   
+  }
+  
+  @media (max-width: 480px) {
+    .content , .header-top_right , ._dacbiet,.social,.hidden_list__menu{
+      display: none;
+    }
+    .header{
+      height: 60px;
+      padding: 0;
+    }
+    .header_container{
+      justify-content: space-between;
+      gap: 15px;
+      display: flex;
+      align-items: center;
+    }
+    .hearder-top{
+      margin-top: 32px;
+    }
+    .hearder-top__left{
+      width: 100%;
+      justify-content: space-between;
+    }
+    .header_search{
+      display: none;
+    }
+    #productSearch input{
+      display: none;
+    }
+    .hearder-top__hidden{
+      display: block;
+    }
+    .btn_giohang__hidden{
+      display: block;
+      position: absolute;
+      /* white-space: nowrap; */
+      width: 85px;
+      height: 40px;
+      right: -51px;
+      font-size: 22px;
+      top: -12px;
+      /* background: var(--orange); */
+      /* overflow: hidden; */
+      /* border-radius: 0 8px 8px 0; */
+      border: none;
+      background: transparent;
+    }
+    #productSearch button {
+      position: absolute;
+    /* white-space: nowrap; */
+    width: 85px;
+    height: 40px;
+    right: 15px;
+    font-size: 22px;
+    top: -18px;
+    /* background: var(--orange); */
+    /* overflow: hidden; */
+    /* border-radius: 0 8px 8px 0; */
+    border: none;
+    background: transparent;
+    }
+    .main_index {
+      padding-top: 62px;
+  }
+  .aspect-ratio-169 {
+    min-height: 210px;
+}
+.section-home-desktop {
+    margin-bottom: 0;
+}
+.section-home-desktop .section-home-desktop-wrap .preview-danhmuc-wrap .header_preview{
+    height: 65px
+}
+.section-home-desktop .section-home-desktop-wrap .preview-danhmuc-wrap .header_preview .title {
+    font-size: 14px;
+  }
+  .section-home-desktop .section-home-desktop-wrap .preview-danhmuc-wrap .header_preview .more .show_more {
+    font-size: 12px;
+}
+.content_preview .banner{
+    width: 150px;
+    height: 330px;
+    margin-right: 27px;
+}
+.content_preview .banner img {
+    height: 320px;
+}
+.item_product_main .image_thumb{
+    padding-bottom: 115%;
+}
+.dnone{
+    display: none;
+}
+.postLogin {
+    padding: 0 15px;
+}
+  }

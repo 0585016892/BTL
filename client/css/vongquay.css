@@ -1,0 +1,147 @@
+.vongquay{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 30px;
+    height: 840px;
+}
+.vongquayMain{
+    height: 100%;
+    flex-direction: column;
+    width: 480px;
+    display: flex;
+    align-items: baseline;
+    background: white;
+}
+.vongquay1{
+    margin-top: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.wapper{
+    width:280px;
+    height:280px;
+    background-color: white;
+    border-radius: 50%;
+    border: 15px solid white;
+    position: relative;
+    z-index: 1235;
+    overflow: hidden;
+    transition: 5s;
+}
+.vongquay1::before {
+    content: '';
+    border-radius: 50%;
+    width: 300px;
+    top: 30%;
+    height: 300px;
+    background-color:  #D6860D;
+    position: absolute;
+    z-index: 555;
+    left: 37%;
+}
+.vongquay1::after {
+    content: '';
+    border-radius: 50%;
+    width: 35px;
+    top: 45.75%;
+    height: 35px;
+    background-color: #4e4a4a;
+    position: absolute;
+    z-index: 1238;
+    left: 48.5%;
+}
+.wapper div{
+    height: 50%;
+    width: 104px;
+    position: absolute;
+    clip-path: polygon(100% 0, 50% 100%, 0 0);
+    transform: translateX(-50%);
+    transform-origin: bottom;
+    text-align: center;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #fff;
+    left: 73px;
+    top: 0px;
+}
+.wapper .one {
+    background-color: #FFD557;
+    left: 50%;
+}
+.wapper .two{
+    background-color: #FF6A68;
+    transform: rotate(45deg);
+}
+.wapper .three{
+    background-color: #6AEEC4;
+    transform: rotate(90deg);
+}
+.wapper .four{
+    background-color: #B486F4;
+    transform: rotate(135deg);
+}
+.wapper .five{
+    background-color: #FFB373;
+    transform: rotate(180deg);
+}
+.wapper .six{
+    background-color: #78CDFC;
+    transform: rotate(225deg);
+}
+.wapper .seven{
+    background-color: red;
+    transform: rotate(270deg);
+}
+.wapper .eight{
+    background-color: orange;
+    transform: rotate(315deg);
+}
+.arrow{
+    width: 60px;
+    position: absolute;
+    top: 111px;
+    left: 45%;
+    z-index: 1237;
+}
+.arrow::before{
+    /*content: "\1F817";*/
+    font-size: 50px;
+}
+.arrow img{ width: 100px;
+    height: 80px;
+    transform: rotate(91deg); }
+#spin{
+    position: absolute;
+    top: 74%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 999;
+    background-color: #FCAF17;
+    text-transform: uppercase;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    width: 25%;
+    height: 59px;
+    font-family: sans-serif;
+    /* border-radius: 50%; */
+    cursor: pointer;
+    outline: none;
+    letter-spacing: 1px;
+}
+#spin:hover{
+    background: rgb(17,0,111);
+    transition: .3s;
+}
+
+

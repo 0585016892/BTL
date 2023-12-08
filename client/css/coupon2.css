@@ -1,0 +1,53 @@
+.page_qua_tang {
+    background: #F5F5F5;
+}
+.page_qua_tang .container {
+    max-width: 1170px !important;
+}
+.page_qua_tang .banner_1 {
+    height: auto;
+    padding-top: 99px;
+}
+.imgBanner{
+    width: 100%;
+    height: auto;
+}
+.page_qua_tang .list-coupon {
+    padding: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.page_qua_tang .ban-chay {
+    padding-bottom: 40px;
+}
+.page_qua_tang .ban-chay .banner-ban-chay {
+    position: relative;
+    height: 72px;
+}
+.page_qua_tang .ban-chay .banner-ban-chay img {
+    height: 100%;
+    width: 100%;
+}
+.page_qua_tang .ban-chay .banner-ban-chay p {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    font-weight: 600;
+    line-height: 38px;
+    margin: 0;
+    font-size: 30px;
+    color: #FFF;
+    text-align: center;
+}
+.frame-list-product {
+    max-width: 1176px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 0px;
+}
+.frame-list-product .list-product {
+    padding-top: 32px;
+}
